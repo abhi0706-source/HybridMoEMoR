@@ -1,0 +1,35 @@
+# Logs
+*.log
+pipeline.log
+training.log
+
+# State files
+pipeline_state.json
+*.json.bak
+
+# Environment / secrets
+.env
+.env.*
+*.key
+secrets.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Checkpoints (intermediate, not final)
+checkpoint-*/
+pretrain/
+sft/
+grpo/
+pretrain_model/
+sft_model/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks output
+*.ipynb_checkpoints/
